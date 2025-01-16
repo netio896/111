@@ -14,7 +14,6 @@ jobs:
     # 每行一个{serv00服务器}，末尾用,间隔
       ACCOUNTS: >
         [
-        {"RES":"n表示每次不重置部署，y表示每次重置部署", "SSH_USER":"用户名", "SSH_PASS":"密码", "REALITY":"reality域名", "SUUID":"uuid", "TCP1_PORT":"vless的tcp端口", "TCP2_PORT":"vmess的tcp端口", "UDP_PORT":"hy2的udp端口", "HOST":"登录域名", "ARGO_DOMAIN":"argo固定域名，临时域名留空", "ARGO_AUTH":"argo固定域名token，临时域名留空"},
         {"RES":"y", "SSH_USER":"xiaoxiaoyan", "SSH_PASS":"M@ung1985", "REALITY":"www.wto.org", "SUUID":"a0ae1415-3390-4f92-ab83-d942db07ae94", "TCP1_PORT":"11487", "TCP2_PORT":"49611", "UDP_PORT":"56351", "HOST":"s6.serv00.com", "ARGO_DOMAIN":"ss6.ooaoa.us.kg", "ARGO_AUTH":"eyJhIjoiYTk1ZjI1NjdjMTM1NmM4Mjg5MzYwNWE0MGY0NzMzNzIiLCJ0IjoiOTNiMGQxMjEtYjgwYy00NDU1LTlkZDEtYjVhNGQyOTUwZWM4IiwicyI6IlkyRmlabVl5TUdZdFpERmtOeTAwTUdFeExXSTBNakF0Tm1GalpHUXlNVGswWm1aayJ9"}
         ]
     steps:
